@@ -29,6 +29,5 @@ def load_to_db(dataframe, table_name="Alpha_vantage_ETL_pipeline"):
     #     )
     #     query = """
     #         INSERT INTO Alpha_vintage_ETL_pipleine (userid, groupid, filename, type) 
-    #         VALUES %s
-    #     """
+ 
    
