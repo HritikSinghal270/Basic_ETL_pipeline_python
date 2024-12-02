@@ -1,0 +1,22 @@
+2024-11-29 16:04:36,375 - INFO - Pipeline started.
+2024-11-29 16:04:37,313 - INFO - Data extraction completed.
+2024-11-29 16:04:37,333 - INFO - Data transformation completed.
+2024-11-29 16:04:37,333 - ERROR - Error during data loading: Expected string or URL object, got None
+2024-11-29 16:04:37,334 - ERROR - Pipeline failed: Expected string or URL object, got None
+2024-11-29 16:04:37,334 - INFO - Pipeline ended.
+2024-12-02 13:07:02,627 - INFO - Pipeline started.
+2024-12-02 13:07:03,555 - INFO - Data extraction completed.
+2024-12-02 13:07:03,571 - INFO - Data transformation completed.
+2024-12-02 13:07:03,572 - ERROR - Error during data loading: Expected string or URL object, got None
+2024-12-02 13:07:03,572 - ERROR - Pipeline failed: Expected string or URL object, got None
+2024-12-02 13:07:03,573 - INFO - Pipeline ended.
+2024-12-02 13:20:23,245 - INFO - Pipeline started.
+2024-12-02 13:20:24,049 - INFO - Data extraction completed.
+2024-12-02 13:20:24,062 - INFO - Data transformation completed.
+2024-12-02 13:20:25,608 - INFO - Data successfully loaded into table 'Alpha_vantage_ETL_pipeline'.
+2024-12-02 13:20:25,609 - INFO - Data loading completed.
+2024-12-02 13:20:25,610 - INFO - Pipeline ended.
+2024-12-02 16:14:33,639 - INFO - Pipeline started.
+2024-12-02 16:14:33,964 - ERROR - Error during data extraction: API response does not contain 'Time Series (Daily)' data.
+2024-12-02 16:14:33,964 - ERROR - Pipeline failed: API response does not contain 'Time Series (Daily)' data.
+2024-12-02 16:14:33,966 - INFO - Pipeline ended.
