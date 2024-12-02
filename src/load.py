@@ -19,18 +19,4 @@ def load_to_db(dataframe, table_name="Alpha_vantage_ETL_pipeline"):
     except Exception as e:
         logging.error(f"Error during data loading: {e}")
         raise
-    # try:
-    #     connection = psycopg2.connect(
-    #         dbname=os.getenv('DATABASE_NAME'),
-    #         user=os.getenv('DATABASE_USER'),
-    #         password=os.getenv('DATABASE_PASSWORD'),
-    #         host=os.getenv('DATABASE_HOST'),
-    #         port=os.getenv('DATABASE_PORT')
-    #     )
-    #     query = """
-    #         INSERT INTO Alpha_vintage_ETL_pipleine (userid, groupid, filename, type) 
-    #         VALUES %s
-    #     """
-    # except Exception as e:
-    #     print(f"Error connecting to database: {e}")
-    #     return None
+    
